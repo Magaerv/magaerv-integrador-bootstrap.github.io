@@ -1,0 +1,42 @@
+.color-imagen-principal {
+  filter: brightness(0.25);
+}
+
+.fotos-card {
+  height: 350px;
+  width: auto;
+  object-fit: cover;
+}
+
+.fotos-carrousel2 {
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+}
+
+.btn-color {
+  background-color: #7ee31f;
+  color: white;
+}
+
+.disposicion-texto {
+  text-align: justify;
+  margin-left: 20em;
+  margin-bottom: 10em;
+}
+
+@media (max-width: 932px) {
+  .disposicion-texto {
+    text-align: justify;
+    margin-left: 0em;
+    margin-bottom: 0em;
+    justify-content:  space-around; ;
+  }
+}
+
+@media (max-width: 575px) {
+  .no-mostrar{
+    display: none;
+  }
+}
+
